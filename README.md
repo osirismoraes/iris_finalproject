@@ -1,6 +1,6 @@
 # **iris_finalproject**
 
-## About
+## Data description
 
 Ronald Fisher, biologist and statistician in 1936 presented a set of data. 
 
@@ -16,4 +16,4 @@ Just for reference, here are pictures of the three flowers species:
 image from (https://mc.ai/visualization-and-understanding-iris-dataset/)
 
 
-* The original paper and usages of the dataset can be found in the http://archive.ics.uci.edu/ml/datasets/Iris
+_The original paper and usages of the dataset can be found in the http://archive.ics.uci.edu/ml/datasets/Iris_

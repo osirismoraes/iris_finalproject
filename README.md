@@ -11,7 +11,7 @@ The iris dataset contains the following data:
 
 Just for reference, here are pictures of the three flowers species:
 
-![iris-machinelearning](https://user-images.githubusercontent.com/29405430/79043073-c1b01300-7bf4-11ea-9038-e99a9785db50.png)
+![figure1](https://user-images.githubusercontent.com/60973011/79228030-b8bf7b80-7e58-11ea-98ff-f54ad51d2731.png)
 image from (https://mc.ai/visualization-and-understanding-iris-dataset/)
 
 

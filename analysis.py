@@ -1,5 +1,7 @@
 import pandas as pd
+import sys
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 # reading iris.csv
@@ -15,10 +17,14 @@ df.replace({'Iris-versicolor': 'versicolor'}, regex=True, inplace=True)
 df.replace({'Iris-virginica': 'virginica'}, regex=True, inplace=True)
 
 # 1 - summary
+save_exit = sys.stdout
+file = open('Summary.txt', 'w')
+sys.stdout = file
+w = df.head(10)
+print(w)
 print(df.info())
-
-# 2 - first 10 rows of data for each class
-print(df.head(10))
+sys.stdout = save_exit
+file.close()
 
 # 3 - division of `Species`
 a = df[df['species'].str.contains("setosa")].groupby('species').size()

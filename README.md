@@ -95,7 +95,7 @@ plt.close()
 
 ## Creating a scatter plot
 
-The graphs below show the relationship between the width and length measurements of petals and sepals of each species (see legend).
+The graphs below show the relationship between the width and length measurements of petals and sepals of each species (see legend). It shows all the relationships in pairs and the marginal distributions.
 
 ```python
 new = df[['species','petallength', 'sepallength', 'petalwidth', 'sepalwidth']]
@@ -104,3 +104,15 @@ g = sns.pairplot(new, hue='species', palette='Spectral')
 plt.savefig('Iris_scatter.png', transparent=True)
 plt.show()
 ```
+
+
+![Iris_scatter](https://user-images.githubusercontent.com/60973011/80005839-0ae94800-84bc-11ea-937d-def5c34c4d0c.png)
+
+## References
+
+* https://archive.ics.uci.edu/ml/datasets/iris
+* https://guides.github.com/features/mastering-markdown/
+* https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+* https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+* https://mode.com/example-gallery/python_histogram/
+* https://seaborn.pydata.org/examples/scatterplot_matrix.html
